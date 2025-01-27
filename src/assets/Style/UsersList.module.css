@@ -1,0 +1,31 @@
+
+@media (min-width: 1150px) {
+    .namePage{
+        color: #999;
+    }
+
+    .contNamePage{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        padding: 50px 20px;
+    }
+
+    .noUser{
+        text-align: center !important;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    .contNamePage{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 25px 20px 50px 20px;
+    }
+
+    .noUser{
+        text-align: center !important;
+    }
+}

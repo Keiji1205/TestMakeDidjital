@@ -146,7 +146,7 @@ const UsersList = () => {
 
 
     const handleDelete = async (userId: number) => {
-        //находим пользовател и отправляем его на удаление
+        //находим пользователя по id и отправляем его на удаление
         const userToDelete = users.find((user: User) => user.id === userId);
 
         if (userToDelete) {
