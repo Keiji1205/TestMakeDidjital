@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "id": "4",
+      "name": "Игорь Кузнецов",
+      "isVip": false,
+      "city": "Екатеринбург",
+      "isG": false,
+      "phone": "8-999-333-33-33",
+      "t": "",
+      "blocked": false,
+      "confirmed": true
+    },
+    {
+      "id": "5",
+      "name": "Мария Попова",
+      "isVip": true,
+      "city": "Казань",
+      "isG": true,
+      "phone": "8-999-444-44-44",
+      "t": 21324,
+      "blocked": true,
+      "confirmed": true
+    },
+    {
+      "id": "6",
+      "name": "Дмитрий Соколов",
+      "isVip": false,
+      "city": "Нижний Новгород",
+      "isG": false,
+      "phone": "8-999-555-55-55",
+      "t": "",
+      "blocked": false,
+      "confirmed": true
+    },
+    {
+      "id": "7",
+      "name": "Ольга Лебедева",
+      "isVip": false,
+      "city": "Челябинск",
+      "isG": true,
+      "phone": "8-999-666-66-66",
+      "t": 21326,
+      "blocked": false,
+      "confirmed": true
+    },
+    {
+      "id": "8",
+      "name": "Алексей Морозов",
+      "isVip": true,
+      "city": "Самара",
+      "isG": true,
+      "phone": "8-999-777-77-77",
+      "t": "",
+      "blocked": false,
+      "confirmed": true
+    },
+    {
+      "id": "9",
+      "name": "Елена Васильева",
+      "isVip": false,
+      "city": "Уфа",
+      "isG": false,
+      "phone": "8-999-888-88-88",
+      "t": 18,
+      "blocked": false,
+      "confirmed": true
+    },
+    {
+      "id": "11",
+      "name": "Татьяна Николаева",
+      "isVip": true,
+      "city": "Волгоград",
+      "isG": false,
+      "phone": "8-999-000-11-11",
+      "t": 330,
+      "blocked": false,
+      "confirmed": true
+    },
+    {
+      "id": "12",
+      "name": "Виктор Петров",
+      "isVip": false,
+      "city": "Краснодар",
+      "isG": true,
+      "phone": "8-999-222-33-44",
+      "t": "",
+      "blocked": false,
+      "confirmed": true
+    }
+  ],
+  "deletedUsers": [
+    {
+      "id": "6fea88f7-b48c-4dc6-baf8-ada100afd115",
+      "name": "Сергей Фёдоров",
+      "isVip": false,
+      "city": "Ростов-на-Дону",
+      "isG": true,
+      "phone": "8-999-999-00-00",
+      "t": "",
+      "blocked": true,
+      "confirmed": true
+    },
+    {
+      "id": "913b7147-35c6-4143-9121-c77f263191e8",
+      "name": "Анастасия Григорьева",
+      "isVip": true,
+      "city": "Тула",
+      "isG": false,
+      "phone": "8-999-444-55-66",
+      "t": "",
+      "blocked": true,
+      "confirmed": true
+    },
+    {
+      "id": "b9e78ec0-60eb-40e4-a2cb-e46a0a9a0475",
+      "name": "Петр Иванов",
+      "isVip": false,
+      "city": "Санкт-Петербург",
+      "isG": false,
+      "phone": "8-999-111-11-11",
+      "t": "",
+      "blocked": false,
+      "confirmed": false
+    },
+    {
+      "id": "4c4b852a-0685-45fb-a47d-4d6165e83fc1",
+      "name": "Анна Смирнова",
+      "isVip": false,
+      "city": "Новосибирск",
+      "isG": true,
+      "phone": "8-999-222-22-22",
+      "t": 1231,
+      "blocked": true,
+      "confirmed": true
+    }
+  ]
+}

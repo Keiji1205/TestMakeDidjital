@@ -1,0 +1,230 @@
+
+
+.cardStick{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+.top{
+    top: 0;
+}
+
+.bottom{
+    bottom: 0;
+}
+
+.cardBody1{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    margin: 0 !important;
+}
+
+.cardBody2{
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 40px;
+    width: 300px !important;
+}
+
+.userInfo{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+}
+.card {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background-color: transparent !important;
+    margin: 10px 0;
+    position: relative;
+    border: none !important;
+}
+
+.buttonContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 10px;
+}
+
+.buttonContainerPhone {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 350px !important;
+    padding: 0 !important;
+    padding: 0px 140px 0px 20px !important;
+}
+
+.actionButtons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2) !important;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 99999px;
+}
+
+.dropdownToggle {
+    color: black !important;
+    background-color: #f5f5f5 !important;
+    border: none !important;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2) !important;
+}
+
+.vipBadge {
+    margin-left: 5px;
+    background-color: #FF69B4;
+    font-size: 0.8rem;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+@media (min-width: 1071px) {
+
+    .cardStick{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: rgba(0, 0, 0, 0.1);
+        position: absolute;
+    }
+
+    .top{
+        top: 0;
+    }
+
+    .bottom{
+        bottom: 0;
+    }
+
+    .cardBody1{
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        margin: 0 !important;
+    }
+
+    .cardBody2{
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 40px;
+        width: 300px !important;
+    }
+
+    .userInfo{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+    }
+    .card {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        background-color: transparent !important;
+        margin: 10px 0;
+        position: relative;
+        border: none !important;
+    }
+
+    .buttonContainer {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        gap: 10px;
+    }
+
+    .buttonContainerPhone {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 350px !important;
+        margin: 0px !important;
+        padding: 0px 120px 0px 0px !important;
+    }
+
+    .actionButtons {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2) !important;
+        min-width: 40px;
+        min-height: 40px;
+        border-radius: 99999px;
+    }
+
+    .dropdownToggle {
+        color: black !important;
+        background-color: #f5f5f5 !important;
+        border: none !important;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .vipBadge {
+        margin-left: 5px;
+        background-color: #FF69B4;
+        font-size: 0.8rem;
+        display: inline-block;
+        padding: 2px 10px;
+        border-radius: 20px;
+    }
+}
+@media (max-width: 1340px) {
+    .buttonContainer {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 440px) {
+    .cardBody2{
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 10px;
+        width: 200px !important;
+        padding: 0 !important;
+    }
+
+    .buttonContainerPhone {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 10px;
+        padding: 20px 0px 20px 0px !important;
+    }
+
+    .cardBody1{
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        margin: 0 !important;
+        max-width: 330px;
+    }
+}
